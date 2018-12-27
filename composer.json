@@ -1,0 +1,25 @@
+{
+  "name": "zeeproject/filter",
+  "description": "Common interface for filters",
+  "license": "BSD-2-Clause",
+  "keywords": ["filter"],
+  "authors": [
+    {
+      "name": "Veaceslav Medvedev",
+      "email": "slavcopost@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zee\\Filter\\": ["src/"]
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.1.x-dev"
+    }
+  }
+}
