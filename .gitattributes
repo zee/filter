@@ -1,0 +1,18 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+* eol=lf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+
+# Ignore composer dependencies from export
+/vendor export-ignore
+/composer.lock export-ignore
+
+# Ignore git configurations from export
+/.gitattributes export-ignore
+/.gitignore export-ignore
+
+# Ignore editor config from export
+/.editorconfig export-ignore
