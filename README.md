@@ -32,7 +32,7 @@ class Foo
 
     public function doSomething($rawValue)
     {
-        $filteredValue = $this->filter->filter($rawValue);
+        $filteredValue = $this->filter->process($rawValue);
         
         // do something with filtered value
         

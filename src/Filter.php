@@ -9,5 +9,5 @@ namespace Zee\Filter;
 
 interface Filter
 {
-    public function filter($value);
+    public function process($value);
 }
