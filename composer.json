@@ -1,5 +1,5 @@
 {
-  "name": "zeeproject/filter",
+  "name": "zeeproject/filter-interface",
   "description": "Common interface for filters",
   "license": "BSD-2-Clause",
   "keywords": ["filter"],

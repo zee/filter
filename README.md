@@ -9,7 +9,7 @@ The common interface for filters.
 ## Installation
 
 ~~~bash
-composer require zeeproject/filter
+composer require zeeproject/filter-interface
 ~~~
 
 ## Usage
@@ -47,9 +47,9 @@ of the interface and inject into your object.
 If you want to implement the interface, you can require this package and implement `Zee\Filter\Filter` in your code.
 
 [ico-license]: https://img.shields.io/badge/License-BSD%202--Clause-blue.svg?style=for-the-badge
-[ico-version]: https://img.shields.io/packagist/v/zeeproject/filter.svg?style=for-the-badge&label=Latest
-[ico-php-version]: https://img.shields.io/packagist/php-v/zeeproject/exceptions.svg?style=for-the-badge
+[ico-version]: https://img.shields.io/packagist/v/zeeproject/filter-interface.svg?style=for-the-badge&label=Latest
+[ico-php-version]: https://img.shields.io/packagist/php-v/zeeproject/exceptions-interface.svg?style=for-the-badge
 
 [link-license]: LICENSE
-[link-packagist]: https://packagist.org/packages/zeeproject/filter
-[link-github]: https://github.com/zee/filter
+[link-packagist]: https://packagist.org/packages/zeeproject/filter-interface
+[link-github]: https://github.com/zee/filter-interface
